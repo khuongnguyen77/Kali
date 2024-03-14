@@ -3,7 +3,9 @@ sudo passwd
 service bluetooth start
               Install ibus-unikey
 apt install ibus-unikey
-
+              Install skype
+https://repo.skype.com/deb/pool/main/s/skypeforlinux/
+dpkg -i skype.deb
               Install google chorme
 apt install gedit
 apt update
