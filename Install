@@ -1,7 +1,9 @@
               Enable Sudo Password
 sudo passwd
+service bluetooth start
               Install ibus-unikey
 apt install ibus-unikey
+
               Install google chorme
 apt install gedit
 apt update
