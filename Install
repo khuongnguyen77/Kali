@@ -1,6 +1,7 @@
               Enable Sudo Password
 sudo passwd
-
+              Install ibus-unikey
+apt install ibus-unikey
               Install google chorme
 apt install gedit
 apt update
