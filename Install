@@ -1,5 +1,8 @@
               Enable Sudo Password
+
 sudo passwd
+apt update
+apt full-upgrade -y
 service bluetooth start
 systemctl enable bluetooth
               Install ibus-unikey
@@ -9,7 +12,7 @@ https://repo.skype.com/deb/pool/main/s/skypeforlinux/
 dpkg -i skype.deb
               Install google chorme
 apt install gedit
-apt update
+
 apt install wget
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 apt install ./google-chrome-stable_current_amd64.de
