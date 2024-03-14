@@ -1,6 +1,7 @@
               Enable Sudo Password
 sudo passwd
 service bluetooth start
+systemctl enable bluetooth
               Install ibus-unikey
 apt install ibus-unikey
               Install skype
