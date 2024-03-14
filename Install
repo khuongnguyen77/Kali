@@ -14,10 +14,14 @@ https://repo.skype.com/deb/pool/main/s/skypeforlinux/
 dpkg -i skype.deb
               Install google chorme
 apt install gedit
-
 apt install wget
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 apt install ./google-chrome-stable_current_amd64.de
 /opt/google/chrome/google-chrome  
 xec -a "$0" "$HERE/chrome" "$@" --no-sandbox
 
+
+                remove app
+dpkg --list 
+apt list --installed
+sudo apt purge gimp
