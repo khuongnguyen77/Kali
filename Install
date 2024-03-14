@@ -8,6 +8,8 @@ systemctl enable bluetooth
               Install ibus-unikey
 apt install ibus-unikey
               Install skype
+apt install snapd
+snap install skype --classic
 https://repo.skype.com/deb/pool/main/s/skypeforlinux/
 dpkg -i skype.deb
               Install google chorme
