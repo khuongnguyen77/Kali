@@ -25,6 +25,8 @@ xec -a "$0" "$HERE/chrome" "$@" --no-sandbox
 dpkg -l
 dpkg --list 
 dpkg apt remove skypeforlinuxp
+Ctr + X --- y save
+
 sudo apt --fix-broken install
 sudo apt purge package_name
 
