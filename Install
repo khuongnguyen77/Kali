@@ -2,7 +2,7 @@
 
 sudo passwd
 apt update
-apt full-upgrade -y
+apt upgrade -y
 service bluetooth start
 systemctl enable bluetooth
               Install ibus-unikey
