@@ -6,7 +6,9 @@ apt upgrade -y
 service bluetooth start
 systemctl enable bluetooth
               Install ibus-unikey
-apt install ibus-unikey
+apt install ibus-unikey  
+              Install Rclone
+apt install rclone
               Install skype
 apt install snapd
 snap install skype --classic
@@ -21,7 +23,8 @@ apt install ./google-chrome-stable_current_amd64.de
 xec -a "$0" "$HERE/chrome" "$@" --no-sandbox
                 install office
 apt install libreoffice
-
+                install chat
+sudo apt install telegram-desktop
                 remove app
 dpkg -l
 dpkg --list 
