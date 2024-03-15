@@ -22,6 +22,9 @@ xec -a "$0" "$HERE/chrome" "$@" --no-sandbox
 
 
                 remove app
+dpkg -l
 dpkg --list 
-apt list --installed
-sudo apt purge gimp
+dpkg apt remove skypeforlinuxp
+sudo apt --fix-broken install
+sudo apt purge package_name
+
