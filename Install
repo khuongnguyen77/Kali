@@ -19,7 +19,8 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 apt install ./google-chrome-stable_current_amd64.de
 /opt/google/chrome/google-chrome  
 xec -a "$0" "$HERE/chrome" "$@" --no-sandbox
-
+                install office
+apt install libreoffice
 
                 remove app
 dpkg -l
